@@ -1,0 +1,114 @@
+/* ── Reset ── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Root layout ── */
+.portfolio-root {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+
+/* ── Main scroll area ── */
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    background: #f0f0f0;
+}
+
+/* ── Section wrappers ── */
+.section-white {
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.section-gray {
+    padding: 40px 20px;
+    background: #f8f8f8;
+}
+
+.section-dark {
+    padding: 56px 20px;
+    background: #1c1c1c;
+    text-align: center;
+}
+
+.card-box {
+    background: #fff;
+    border-radius: 8px;
+    padding: 28px 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.card-box-gray {
+    background: #f8f8f8;
+    border-radius: 8px;
+    padding: 28px 20px;
+}
+
+.section-tag {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1c1c1c;
+}
+
+.section-tag span {
+    color: #e74c3c;
+}
+
+/* ── Tablet (≥640px) ── */
+@media (min-width: 640px) {
+
+    .section-white,
+    .section-gray {
+        padding: 44px 32px;
+    }
+
+    .section-dark {
+        padding: 64px 32px;
+    }
+
+    .card-box,
+    .card-box-gray {
+        padding: 32px 28px;
+    }
+}
+
+/* ── Desktop (≥900px) ── */
+@media (min-width: 900px) {
+    .main-content {
+        overflow-y: auto;
+    }
+
+    .section-white,
+    .section-gray {
+        padding: 48px 40px;
+    }
+
+    .card-box,
+    .card-box-gray {
+        padding: 32px 36px;
+    }
+}
+
+/* ── Mobile (<900px) ── */
+@media (max-width: 899px) {
+    .portfolio-root {
+        flex-direction: column;
+        overflow: auto;
+        height: auto;
+    }
+
+    .main-content {
+        overflow-y: visible;
+        flex: unset;
+    }
+}
