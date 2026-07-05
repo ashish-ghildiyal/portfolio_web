@@ -12,15 +12,15 @@ export const ABOUT_INFO = [
   {
     label: "Phone",
     links: [
-      { href: "tel:+17789572433", text: "+1 (778) 957 2433" },
-      { href: "tel:+14169375352", text: "+1 (416) 932 5352" },
+      { href: "tel:+17789572433", text: "-" },
+      { href: "tel:+14169375352", text: "-" },
     ],
   },
   {
     label: "Email",
     links: [
-      { href: "mailto:shireen@ace-law.ca",           text: "shireen@ace-law.ca" },
-      { href: "mailto:kunal@westforcecanada.com",    text: "kunal@westforcecanada.com" },
+      { href: "mailto:shireen@ace-law.ca",           text: "-" },
+      { href: "mailto:kunal@westforcecanada.com",    text: "-" },
     ],
   },
   { label: "Address", value: "Al Nahda, Sharjah, UAE" },
