@@ -11,7 +11,7 @@ import PdfIcon from "./PdfIcon";
 export default function DocumentCard({ label, file }) {
   return (
     <a
-      href={file}
+      href={`${import.meta.env.BASE_URL}file`}
       target="_blank"
       rel="noopener noreferrer"
       className="doc-card"
