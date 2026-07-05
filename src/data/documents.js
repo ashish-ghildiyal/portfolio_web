@@ -8,10 +8,10 @@
 // ];
 
 export const DOCUMENTS = [
-  { label: "10th - 12th Certificate", file: "/docs/10th-12th_results.pdf" },
+  { label: "10th - 12th Certificate", file: "docs/10th-12th_results.pdf" },
   
-  { label: "WES Report",                    file: "/docs/WES_Report.pdf" },
-  { label: "Work Experience",               file: "/docs/Work_Experience.pdf" },
-  { label: "Training Documents",            file: "/docs/training_documents.pdf" },
-  { label: "IELTS",                         file: "/docs/IELTS.pdf" },
+  { label: "WES Report",                    file: "docs/WES_Report.pdf" },
+  { label: "Work Experience",               file: "docs/Work_Experience.pdf" },
+  { label: "Training Documents",            file: "docs/training_documents.pdf" },
+  { label: "IELTS",                         file: "docs/IELTS.pdf" },
 ];
