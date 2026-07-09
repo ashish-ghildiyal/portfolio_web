@@ -9,7 +9,7 @@ export default function Sidebar({ activeSection, onNavClick }) {
       <aside className="sidebar">
         <div className="sidebar-avatar">{PROFILE.initials}</div>
         <div className="sidebar-name">{PROFILE.name}</div>
-        <div className="sidebar-sub">{PROFILE.subtitle}</div>
+        {/* <div className="sidebar-sub">{PROFILE.subtitle}</div> */}
 
         <nav>
           {NAV_ITEMS.map((item) => (

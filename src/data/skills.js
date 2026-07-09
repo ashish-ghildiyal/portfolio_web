@@ -17,16 +17,16 @@
 
 
 export const AREA_SKILLS = [
+  "Culinary Skills",
   "Security and loss Prevention Management",
   "Food and Beverage Management",
-  "Customer Service",
-  "Client Management",
+  "Kitchen Operations",
 ];
 
 export const OTHER_SKILLS = [
-  "Team Management",
+  "Team supervision",
   "Good Communication Skills",
-  "Calm Under Pressure",
-  "Effective Problem-Solving Skills",
+  "Microsoft Office",
+  "kitchen management systems",
   "Organizational Skills",
 ];
