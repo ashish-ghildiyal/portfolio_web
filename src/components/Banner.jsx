@@ -2,9 +2,9 @@ import "../styles/banner.css";
 import { BANNER_IMAGES } from "../data/banner";
 import { PROFILE }       from "../data/profile";
 
-export default function Banner({ bannerIndex, setBannerIndex, typedText, isTyping }) {
+export default function Banner({ bannerIndex, setBannerIndex, typedText, isTyping,sectionRef }) {
   return (
-    <section id="home">
+    <section id="home" ref={sectionRef}>
       <div className="banner-wrap">
         {/* Background image */}
         <div

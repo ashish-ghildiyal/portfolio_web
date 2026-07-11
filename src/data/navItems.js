@@ -1,5 +1,5 @@
 export const NAV_ITEMS = [
-  { id: "home",         label: "Home",       icon: "🏠" },
+  { id: "home",        label: "Home",      icon: "🏠" },
   { id: "about-me",    label: "About Me",   icon: "👤" },
   { id: "education",   label: "Education",  icon: "🎓" },
   { id: "documents",   label: "Documents",  icon: "📁" },

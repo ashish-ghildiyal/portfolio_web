@@ -7,7 +7,10 @@ export default function Sidebar({ activeSection, onNavClick }) {
     <>
       {/* ── Desktop Sidebar ── */}
       <aside className="sidebar">
-        <div className="sidebar-avatar">{PROFILE.initials}</div>
+        <div className="sidebar-avatar">
+          <img src={PROFILE.profile_pic} alt={PROFILE.name} />
+          {/* <img src={`${PROFILE.profile_pic}`} alt="jignesh"/> */}
+          </div>
         <div className="sidebar-name">{PROFILE.name}</div>
         {/* <div className="sidebar-sub">{PROFILE.subtitle}</div> */}
 

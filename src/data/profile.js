@@ -1,6 +1,7 @@
 export const PROFILE = {
   initials:    "JP",
   name:        "Jignesh Patel",
+  profile_pic: "docs/jignesh_pic.png",
   subtitle:    "WAREHOUSE & LOGISTICS",
   footer:      "© 2026 All rights reserved.",
   resumeFile:  "docs/resume.pdf",

@@ -25,6 +25,7 @@ import Resume     from "./components/Resume";
 
 
 export default function Portfolio() {
+  
   // Refs for scrollable container and each section
   const contentRef  = useRef(null);
   const sectionRefs = useRef({});
@@ -60,7 +61,7 @@ export default function Portfolio() {
       {/* ── Main Scrollable Content ── */}
       <main ref={contentRef} className="main-content">
         <Banner
-          ref={ref("home")}
+          sectionRef={ref("home")}
           bannerIndex={bannerIndex}
           setBannerIndex={setBannerIndex}
           typedText={typedText}
